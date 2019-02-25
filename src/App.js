@@ -1,7 +1,7 @@
 //Bring in React and Component instance from react
 import React, { Component } from 'react';
 
-//Define our hello component
+//Define our Hello component
 class Hello extends Component {
   //What should the component render
   render (){
@@ -15,33 +15,6 @@ class Hello extends Component {
   }
 }
 export default Hello
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
