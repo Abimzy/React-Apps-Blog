@@ -1,16 +1,17 @@
 //Bring in React and Component instance from react
 import React, { Component } from 'react';
 import Comment from './Comments.js'
+import './App'
 
 
 class Post extends Component {
     render(){
         let comments = this.props.comments.map((comment, index) => (
-            <Comment message={comment} key={index} />
+            <Comment message={comment} key={index}/>
         ))
       return (
-    <div>
-        <div className='post-page'>
+    <div className='App'>
+        <div>
           <h1>{this.props.title}</h1>
           <h2>By {this.props.author}</h2>
         </div>
@@ -19,11 +20,11 @@ class Post extends Component {
         </div>
         <div>
             <h3>Comments:</h3>
-            {comments}
+             {comments}  
         </div>
     </div>
       )
     }
   }
-  export default Post
+  export default Post;
 

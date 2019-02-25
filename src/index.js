@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import Hello from './App.js';
 import Post from './Blog.js';
+import './App.css';
 import * as serviceWorker from './serviceWorker';
 
 
